@@ -1566,3 +1566,82 @@ textarea {
     font-size: 0.82rem;
   }
 }
+
+/* ---- THANKS PAGE UPGRADE ---- */
+
+.thanks {
+  padding: 140px 20px;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thanks__inner {
+  width: 100%;
+  max-width: 640px;
+}
+
+.thanks__card {
+  background: #ffffff;
+  padding: 70px 50px;
+  border-radius: 20px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.thanks__card::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 160px;
+  height: 160px;
+  background: rgba(0, 123, 255, 0.06);
+  border-radius: 50%;
+}
+
+.thanks__icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  background: #4CAF50;
+  color: #fff;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(76, 175, 80, 0.3);
+}
+
+.thanks__title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.thanks__text {
+  color: #555;
+  line-height: 1.9;
+  margin-bottom: 45px;
+  font-size: 16px;
+}
+
+.thanks__btn {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.thanks__btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ===========================
+   
