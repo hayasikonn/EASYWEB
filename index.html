@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="イージーweb｜個人事業主向けホームページ制作・運用。雰囲気だけ決めればOK。制作〜公開〜運用まで丸投げ可能。開業日にHPが完成している状態を提供します。">
+  <title>イージーweb｜個人事業主向けホームページ制作・運用</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Sans+JP:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#" class="header__logo">
+        <span class="logo-en">Easy</span><span class="logo-jp">web</span>
+      </a>
+      <nav class="header__nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#service" class="nav__link">サービス</a></li>
+          <li><a href="#flow" class="nav__link">制作の流れ</a></li>
+          <li><a href="#price" class="nav__link">料金</a></li>
+          <li><a href="#works" class="nav__link">実績</a></li>
+          <li><a href="#contact" class="nav__link nav__link--cta">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" id="mobileNav">
+    <ul class="mobile-nav__list">
+      <li><a href="#service" class="mobile-nav__link">サービス</a></li>
+      <li><a href="#flow" class="mobile-nav__link">制作の流れ</a></li>
+      <li><a href="#price" class="mobile-nav__link">料金</a></li>
+      <li><a href="#works" class="mobile-nav__link">実績</a></li>
+      <li><a href="#contact" class="mobile-nav__link">お問い合わせ</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <div class="hero__gradient"></div>
+        <div class="hero__lines"></div>
+      </div>
+      <div class="hero__content">
+        <p class="hero__eyebrow fade-in" data-delay="0">Web Production & Management</p>
+        <h1 class="hero__title fade-in" data-delay="200">
+          <span class="hero__title-line">個人事業主・開業準備者のための</span>
+          <span class="hero__title-line hero__title-line--accent">ホームページ制作・運用サービス</span>
+        </h1>
+        <p class="hero__subtitle fade-in" data-delay="400">
+          雰囲気だけ決めれば、あとは丸投げ。
+        </p>
+        <div class="hero__actions fade-in" data-delay="600">
+          <a href="#contact" class="btn btn--primary">無料相談を予約する</a>
+          <a href="#service" class="btn btn--ghost">サービスを見る</a>
+        </div>
+        <div class="hero__scroll fade-in" data-delay="800">
+          <span class="scroll-line"></span>
+          <span class="scroll-text">Scroll</span>
+        </div>
+      </div>
+      <div class="hero__number">01</div>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="stat-num">98,000</span><span
+            style="font-size:0.5em; text-decoration:line-through; opacity:0.5; margin-right:5px;">200,000</span>
+          <span class="stat-unit">円〜</span>
+          <span class="stat-label">制作費用</span>
+        </div>
+        <div class="hero__stat">
+          <span class="stat-num">7</span>
+          <span class="stat-unit">日以内</span>
+          <span class="stat-label">初稿提出</span>
+        </div>
+        <div class="hero__stat">
+          <span class="stat-num">開業日</span>
+          <span class="stat-unit">に</span>
+          <span class="stat-label">公開保証</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONCEPT -->
+    <section class="concept reveal">
+      <div class="container">
+        <div class="concept__inner">
+          <div class="concept__text">
+            <p class="section-label">Concept</p>
+            <h2 class="section-title">
+              制作会社でも<br>
+              フリーランスでもない。<br>
+              <em>開業支援パートナー</em>として。
+            </h2>
+            <p class="concept__body">
+              「ホームページが必要とはわかっているが、何から始めればいいかわからない」
+              そんな開業前・開業後の個人事業主の方に寄り添うサービスです。
+              AI活用による高速・高品質制作で、開業日に必ずホームページが公開された状態をお届けします。
+            </p>
+          </div>
+          <div class="concept__visual">
+            <div class="concept__card">
+              <div class="concept__icon">✦</div>
+              <h3>丸投げ設計</h3>
+              <p>雰囲気のみ決定、他は全て制作側が対応</p>
+            </div>
+            <div class="concept__card">
+              <div class="concept__icon">◎</div>
+              <h3>開業日公開保証</h3>
+              <p>逆算設計でオープン日に必ず公開</p>
+            </div>
+            <div class="concept__card">
+              <div class="concept__icon">⬡</div>
+              <h3>伴走型保守</h3>
+              <p>公開後も月額でサポート継続</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE -->
+    <section class="service reveal" id="service">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Service</p>
+          <h2 class="section-title">サービス内容</h2>
+        </div>
+        <div class="service__grid">
+          <div class="service__card reveal-child">
+            <div class="service__number">01</div>
+            <div class="service__icon-wrap">
+              <div class="service__icon">✦</div>
+            </div>
+            <h3 class="service__name">お試しプラン</h3>
+            <p class="service__desc">
+              手軽にホームページを持ちたい方におすすめのプランです。
+              お問い合わせフォームなどは別料金となります。
+            </p>
+            <ul class="service__features">
+              <li>制作費¥48,000＋運用費15,000円。</li>
+              <li>修正は画像、テキスト共に一回までとなります。</li>
+              <li>開業日公開保証</li>
+            </ul>
+            <div class="service__price">¥48,000<span>（税込）</span></div>
+          </div>
+          <div class="service__card service__card--highlight reveal-child">
+            <div class="service__number">02</div>
+            <div class="service__icon-wrap">
+              <div class="service__icon">◻</div>
+            </div>
+            <h3 class="service__name">ホームページ制作</h3>
+            <p class="service__desc">
+              トップページ完結型のシンプルで洗練されたホームページを制作。
+              スマートフォン対応・SEO対策・フォーム設置まで全て含みます。
+            </p>
+            <ul class="service__features">
+              <li>レスポンシブ対応（スマホ最適化）</li>
+              <li>基本的なSEO対策</li>
+              <li>お問い合わせフォーム設置</li>
+              <li>Netlify環境での公開</li>
+            </ul>
+            <div class="service__price">¥98,000<span>（税込）</span></div>
+            <div class="service__badge">人気No.1</div>
+          </div>
+          <div class="service__card reveal-child">
+            <div class="service__number">03</div>
+            <div class="service__icon-wrap">
+              <div class="service__icon">◈</div>
+            </div>
+            <h3 class="service__name">月額運用保守</h3>
+            <p class="service__desc">
+              公開後も安心のサポートプラン。
+              月2回までのテキスト・画像差し替えに加え、毎月の改善提案も実施します。
+            </p>
+            <ul class="service__features">
+              <li>月2回まで軽微な修正無料</li>
+              <li>バックアップ・セキュリティ確認</li>
+              <li>月1回の改善提案 or アクセスレポート</li>
+              <li>Netlify環境管理</li>
+            </ul>
+            <div class="service__price">¥15,000<span>／月（税込）</span></div>
+          </div>
+        </div>
+        <p class="service__note">
+          ※下層ページ制作は別途1ページ¥50,000。ライトプランのみ問い合わせフォーム別途¥20,000。
+        </p>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="why reveal">
+      <div class="why__bg-text">WHY</div>
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Why EasyWeb</p>
+          <h2 class="section-title">選ばれる理由</h2>
+        </div>
+        <div class="why__list">
+          <div class="why__item reveal-child">
+            <span class="why__num">01</span>
+            <div class="why__content">
+              <h3>AI活用で低価格 × 高品質 × 高速納品</h3>
+              <p>最新のAIツールを駆使することで、制作会社クオリティを個人事業主でも手の届く価格で実現。初稿は素材受領後7日以内に提出します。</p>
+            </div>
+          </div>
+          <div class="why__item reveal-child">
+            <span class="why__num">02</span>
+            <div class="why__content">
+              <h3>開業日に必ずホームページが完成している</h3>
+              <p>オープン日から逆算したスケジュールで制作を進め、開業日には確実にホームページが公開された状態をお届けします。</p>
+            </div>
+          </div>
+          <div class="why__item reveal-child">
+            <span class="why__num">03</span>
+            <div class="why__content">
+              <h3>雰囲気を選ぶだけ。あとは全部任せられる</h3>
+              <p>5種類のテンプレートから雰囲気を選んでいただくだけ。文章作成もデザインも技術的な設定も、全て制作側が担当します。</p>
+            </div>
+          </div>
+          <div class="why__item reveal-child">
+            <span class="why__num">04</span>
+            <div class="why__content">
+              <h3>公開後も伴走するパートナーとして</h3>
+              <p>月額保守プランでは更新対応だけでなく、アクセスレポートや改善提案も実施。長期的にビジネスの成長を支援します。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLOW -->
+    <section class="flow reveal" id="flow">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Flow</p>
+          <h2 class="section-title">制作の流れ</h2>
+        </div>
+        <div class="flow__steps">
+          <div class="flow__step reveal-child">
+            <div class="flow__step-num">01</div>
+            <div class="flow__step-content">
+              <h3>お問い合わせ・テンプレート選択</h3>
+              <p>まずはお気軽にお問い合わせください。5種類のテンプレートから雰囲気を選んでいただきます。</p>
+            </div>
+            <div class="flow__arrow">→</div>
+          </div>
+          <div class="flow__step reveal-child">
+            <div class="flow__step-num">02</div>
+            <div class="flow__step-content">
+              <h3>構成ラフ・ご提案</h3>
+              <p>ページ構成ラフと掲載イメージ（文章サンプル入り）をお送りします。</p>
+            </div>
+            <div class="flow__arrow">→</div>
+          </div>
+          <div class="flow__step reveal-child">
+            <div class="flow__step-num">03</div>
+            <div class="flow__step-content">
+              <h3>契約・着手金お支払い</h3>
+              <p>契約書締結後、着手金49,000円をお支払いいただき制作スタートです。</p>
+            </div>
+            <div class="flow__arrow">→</div>
+          </div>
+          <div class="flow__step reveal-child">
+            <div class="flow__step-num">04</div>
+            <div class="flow__step-content">
+              <h3>素材のご提供</h3>
+              <p>文章・写真素材をご提供ください。不足している場合はこちらでダミーを作成します。</p>
+            </div>
+            <div class="flow__arrow">→</div>
+          </div>
+          <div class="flow__step reveal-child">
+            <div class="flow__step-num">05</div>
+            <div class="flow__step-content">
+              <h3>初稿提出・修正</h3>
+              <p>素材受領後7日以内に初稿を提出。デザイン修正は2回まで対応します。</p>
+            </div>
+            <div class="flow__arrow">→</div>
+          </div>
+          <div class="flow__step reveal-child">
+            <div class="flow__step-num">06</div>
+            <div class="flow__step-content">
+              <h3>残金お支払い・公開</h3>
+              <p>残金49,000円のお支払い確認後、ホームページを公開。開業日に合わせて調整可能です。</p>
+            </div>
+            <div class="flow__arrow flow__arrow--hidden">→</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICE -->
+    <section class="price reveal" id="price">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Price</p>
+          <h2 class="section-title">料金表</h2>
+        </div>
+        <div class="price__table-wrap">
+          <table class="price__table">
+            <thead>
+              <tr>
+                <th>項目</th>
+                <th>内容</th>
+                <th>料金（税込）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>トップページ制作</td>
+                <td>デザイン・コーディング・SEO・フォーム設置・公開</td>
+                <td class="price__amount"><span class="price-old">¥200,000</span><span
+                    class="price-special">¥98,000</span></td>
+              </tr>
+              <tr>
+                <td>下層ページ追加</td>
+                <td>1ページあたり（デザイン・コーディング）</td>
+                <td class="price__amount">¥50,000 / ページ</td>
+              </tr>
+              <tr>
+                <td>問い合わせフォーム</td>
+                <td>Netlifyフォーム設置・Gmail通知設定</td>
+                <td class="price__amount">¥20,000</td>
+              </tr>
+              <tr>
+                <td>月額運用保守</td>
+                <td>月2回修正・バックアップ・改善提案</td>
+                <td class="price__amount">¥15,000 / 月</td>
+              </tr>
+              <tr>
+                <td>修正追加（3回目以降）</td>
+                <td>1回あたり（軽微な修正）</td>
+                <td class="price__amount">¥10,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="price__payment">
+          <h3>お支払いについて</h3>
+          <p>着手金 <strong>¥49,000</strong>（契約締結後3日以内）＋ 残金 <strong>¥49,000</strong>（納品後7日以内）の2回払い。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKS/TEMPLATES -->
+    <section class="works reveal" id="works">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Template Styles</p>
+          <h2 class="section-title">テンプレートスタイル</h2>
+        </div>
+        <div class="works__grid">
+          <div class="works__card reveal-child">
+            <div class="works__thumb works__thumb--01">
+              <div class="works__thumb-inner">シンプル・ミニマル</div>
+            </div>
+            <div class="works__info">
+              <h3>シンプル・ミニマルタイプ</h3>
+              <p>白基調で信頼感を重視した構成。クリニック・士業・コンサルタント向け。</p>
+            </div>
+          </div>
+          <div class="works__card reveal-child">
+            <div class="works__thumb works__thumb--02">
+              <div class="works__thumb-inner">柔らかい雰囲気</div>
+            </div>
+            <div class="works__info">
+              <h3>柔らかい雰囲気タイプ</h3>
+              <p>写真を大きく使い温かみを出すデザイン。飲食・美容・セラピスト向け。</p>
+            </div>
+          </div>
+          <div class="works__card reveal-child">
+            <div class="works__thumb works__thumb--03">
+              <div class="works__thumb-inner">信頼重視</div>
+            </div>
+            <div class="works__info">
+              <h3>信頼重視タイプ</h3>
+              <p>落ち着いた色味で実績や強みを明確に伝える構成。建設・士業・整体院向け。</p>
+            </div>
+          </div>
+          <div class="works__card reveal-child">
+            <div class="works__thumb works__thumb--04">
+              <div class="works__thumb-inner">ビジュアル重視</div>
+            </div>
+            <div class="works__info">
+              <h3>ビジュアル重視タイプ</h3>
+              <p>写真を中心に魅力を伝えるレイアウト。レストラン・カフェ・ブランド向け。</p>
+            </div>
+          </div>
+          <div class="works__card reveal-child">
+            <div class="works__thumb works__thumb--05">
+              <div class="works__thumb-inner">高級タイプ</div>
+            </div>
+            <div class="works__info">
+              <h3>高級タイプ</h3>
+              <p>黒や金を基調とした高級感あるレイアウト。高級飲食・エステ・ブライダル向け。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq reveal">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">FAQ</p>
+          <h2 class="section-title">よくある質問</h2>
+        </div>
+        <div class="faq__list">
+          <div class="faq__item reveal-child">
+            <button class="faq__question" aria-expanded="false">
+              <span>素材（写真・文章）が何もない状態でも依頼できますか？</span>
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__answer">
+              <p>はい、問題ございません。ヒアリングを通じてコンセプトや強みを言語化し、文章はこちらで作成します。写真はダミー画像を使用し、後から差し替えることも可能です。</p>
+            </div>
+          </div>
+          <div class="faq__item reveal-child">
+            <button class="faq__question" aria-expanded="false">
+              <span>スマートフォンにも対応していますか？</span>
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__answer">
+              <p>全プランでレスポンシブ対応（スマートフォン最適化）が含まれています。768px以下でのスマホ最適化を標準で実装します。</p>
+            </div>
+          </div>
+          <div class="faq__item reveal-child">
+            <button class="faq__question" aria-expanded="false">
+              <span>開業前でも依頼できますか？</span>
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__answer">
+              <p>はい、むしろ開業前のご依頼を推奨しています。オープン日から逆算したスケジュールで制作を進め、開業日に必ずホームページが公開されている状態を保証します。</p>
+            </div>
+          </div>
+          <div class="faq__item reveal-child">
+            <button class="faq__question" aria-expanded="false">
+              <span>修正はどのくらいできますか？</span>
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__answer">
+              <p>初稿提出後、デザイン修正は2回まで無料で対応します。テキスト修正は納品前まで対応可能。大幅なレイアウト変更・構成変更は別途お見積りとなります。</p>
+            </div>
+          </div>
+          <div class="faq__item reveal-child">
+            <button class="faq__question" aria-expanded="false">
+              <span>納品後に自分で更新できますか？</span>
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__answer">
+              <p>基本的にはHTMLファイルの編集が必要なため、非エンジニアの方には月額保守プランでの対応をお勧めしています。月2回まで軽微な修正（テキスト・画像差し替え）に無料で対応します。</p>
+            </div>
+          </div>
+          <div class="faq__item reveal-child">
+            <button class="faq__question" aria-expanded="false">
+              <span>ドメインやサーバーの手続きも代行してもらえますか？</span>
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__answer">
+              <p>Netlifyでの公開・管理は制作費に含まれています。ただし独自ドメイン取得の代行は含まれていません。ドメイン取得のご案内は行いますので、お気軽にご相談ください。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BAND -->
+    <section class="cta-band reveal">
+      <div class="cta-band__inner">
+        <p class="cta-band__sub">まずは気軽にご相談ください</p>
+        <h2 class="cta-band__title">全ての個人事業主に<br>あなただけのホームページを</h2>
+        <a href="#contact" class="btn btn--white">無料相談を予約する</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact reveal" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Contact</p>
+          <h2 class="section-title">お問い合わせ</h2>
+          <p class="section-desc">お気軽にご相談ください。ご希望でしたら無料でサンプルホームページを作成いたします。</p>
+        </div>
+        <div class="contact__inner">
+          <form class="contact__form" name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact">
+            <div class="form__group">
+              <label for="name" class="form__label">お名前 <span class="form__required">必須</span></label>
+              <input type="text" id="name" name="name" class="form__input" placeholder="山田 太郎" required>
+            </div>
+            <div class="form__group">
+              <label for="email" class="form__label">メールアドレス <span class="form__required">必須</span></label>
+              <input type="email" id="email" name="email" class="form__input" placeholder="example@mail.com" required>
+            </div>
+            <div class="form__group">
+              <label for="phone" class="form__label">電話番号</label>
+              <input type="tel" id="phone" name="phone" class="form__input" placeholder="090-0000-0000">
+            </div>
+            <div class="form__group">
+              <label for="business" class="form__label">業種・業態</label>
+              <input type="text" id="business" name="business" class="form__input" placeholder="例：飲食店、美容院、整体院 など">
+            </div>
+            <div class="form__group">
+              <label for="plan" class="form__label">ご希望のプラン</label>
+              <select id="plan" name="plan" class="form__select">
+                <option value="">選択してください</option>
+                <option value="basic">ホームページ制作（特別価格 ¥98,000）</option>
+                <option value="opening">ライトプラン（¥48,000）</option>
+                <option value="maintenance">月額運用保守（¥15,000/月）</option>
+                <option value="other">その他・相談したい</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="message" class="form__label">メッセージ・ご要望</label>
+              <textarea id="message" name="message" class="form__textarea" rows="6"
+                placeholder="開業予定日、ご希望の雰囲気、参考サイトなどをお気軽にご記入ください。"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">送信する</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="footer__logo">
+            <span class="logo-en">Easy</span><span class="logo-jp">web</span>
+          </a>
+          <p class="footer__tagline">個人事業主のための<br>ホームページ制作・運用</p>
+        </div>
+        <nav class="footer__nav">
+          <ul>
+            <li><a href="#service">サービス</a></li>
+            <li><a href="#flow">制作の流れ</a></li>
+            <li><a href="#price">料金</a></li>
+            <li><a href="#works">実績</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2025 EasyWeb. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
