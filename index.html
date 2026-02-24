@@ -501,8 +501,14 @@
           <p class="section-desc">お気軽にご相談ください。ご希望でしたら無料でサンプルホームページを作成いたします。</p>
         </div>
         <div class="contact__inner">
-          <form class="contact__form" name="contact" method="POST" data-netlify="true">
+          <form class="contact__form" name="contact" method="POST" data-netlify="true" netlify
+            netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contact">
+            <p hidden>
+              <label>Don’t fill this out:
+                <input name="bot-field" />
+              </label>
+            </p>
             <div class="form__group">
               <label for="name" class="form__label">お名前 <span class="form__required">必須</span></label>
               <input type="text" id="name" name="name" class="form__input" placeholder="山田 太郎" required>
